@@ -1,7 +1,7 @@
 package net.proselyte.basepatterns.behavioral.chain;
 
 public abstract class Notifier {
-    private int priority;
+    private final int priority;
     private Notifier nextNotifier;
 
     public Notifier(int priority) {
